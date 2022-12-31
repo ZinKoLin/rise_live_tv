@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Rise Live</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="press_again_to_exit">Press again to exit app</string>
+    <string name="press_again_to_close_player">Press again to close player</string>
+    <string name="whops">Whoops!</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="unlock_premium">Live Match</string>
+    <string name="channels">Channels</string>
+    <string name="profile">Favorite</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="rate_this_app">Rate this app</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="feedback_amp_bugs"><![CDATA[Feedback & Bugs]]></string>
+    <string name="follow_us_on_instagram">Follow us on Telegram</string>
+    <string name="vpn_link">Get VPN</string>
+    <string name="cb_link">Fb Messager</string>
+
+
+    <!-- SETTING PAGE -->
+    <string name="version_label">Current Version</string>
+    <string name="search_hint">Which channels you want?</string>
+    <string name="dialog_option_cancel">Cancel</string>
+    <string name="msg_clearing_cache">Clear CacheAre you sure want to clear cache?</string>
+    <string name="msg_please_wait">Please Wait…</string>
+    <string name="msg_cache_cleared">Cache has been cleared !</string>
+    <string name="dialog_option_yes">Yes</string>
+    <string name="msg_clear_cache">Clear Cache</string>
+    <string name="display_wallpaper">Display Channels</string>
+    <string name="wallpaper_columes">2 Columes</string>
+    <string name="msg_about_version">Version</string>
+    <string name="storage">Wallpaper Save Location</string>
+    <string name="storagelocation">Internal Storage/</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="label_cache">Remove image cache from your storage which created after loading
+        Channels thumbnails. Currently : </string>
+    <string name="title_notification">Push Notification</string>
+    <string name="label_notification">Want Channels Notifications from </string>
+    <string name="policy_privacy">Privacy Policy</string>
+    <string name="views">Views</string>
+    <string name="downloads">Downloads</string>
+    <string name="sets">Sets</string>
+    <string name="size">Size</string>
+    <string name="resolution">Resolution</string>
+    <string name="app_copyright">Created by AnyWay Technology</string>
+    <string name="whoops">Whoops</string>
+    <string name="no_wallpaper_found">No TV Channels Found ! \n Please Try Again Later</string>
+    <string name="action_search">Search</string>
+    <string name="add_fav">Added to Favorites</string>
+    <string name="remove_fav">Remove from Favorites</string>
+    <string name="no_favoite">No Favorites</string>
+
+    <!-- Player -->
+    <string name="mxPlayer">MX Player</string>
+    <string name="vlcPlayer">VLC Media</string>
+    <string name="player_error">Error</string>
+    <string name="download_player_first">You need to install it first</string>
+
+    //URL
+    <string name="privacy_policy_url">https://privacypolicies.com/privacy/view/c51c78f03631c7591d817e9d0c30c84c</string>
+    <string name="play_more_apps">https://play.google.com/store/apps/dev?id=4953198869609779431</string>
+
+    //ads
+    <string name="admob_app_id">ca-app-pub-1182345835256995~7143781556</string>
+    <string name="applovin_sdk_key">x5ImfykxaMWs-ntpF6fuNGlFBtC9zBJuGcewTMs8kN_h9sVOz9HLQ0abtnmqy4iDgM8Ek_MRML7WCdv123456</string>
+
+    <!-- youtube -->
+    <string name="youtube_api_key">AIzaSyCbehD6DCeDZHaGl8SUWKh1koTiHwKcvKY</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="msg_failed">Failed!</string>
+    <string name="option_retry">Retry</string>
+    <string name="option_no">No</string>
+    <string name="fab" />
+    <string name="click">ads</string>
+
+    <string name="img_content_description">TODO</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

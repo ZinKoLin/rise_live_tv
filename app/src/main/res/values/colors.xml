@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF0044</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF0044</color>
+
+    <color name="colorSearch">#80BCBCBC</color>
+
+    <color name="colorLight">#FFE0E8</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tabText">#353940</color>
+    <color name="lightGray">#545860</color>
+
+    <color name="searchHint">#CC353940</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="bgMain">#FFFFFF</color>
+    <color name="MainText">#000000</color>
+    <color name="MainSecText">#424242</color>
+
+    <color name="colorBackgroundLight">#FFFFFF</color>
+    <color name="colorBackgroundDark">#FF0044</color>
+
+    <color name="cardBack">#FFFFFF</color>
+
+    <color name="colorBackgfffroundDark">#7E92FF</color>
+    <color name="colorShimmer">#BCBEC1</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="grey_soft">#F5F5F5</color>
+    <color name="player_background">#CC000000</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

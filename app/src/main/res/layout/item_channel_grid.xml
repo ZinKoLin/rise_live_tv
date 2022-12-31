@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/lyt_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/cardBack"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rise.live.Utils.SquareRelativeLayout
+                android:id="@+id/squareImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ivCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/placeholder" />
+
+            </com.rise.live.Utils.SquareRelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/squareImageView"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:autoText="false"
+                android:elegantTextHeight="false"
+                android:fitsSystemWindows="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:autoSizeTextType="none" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/mainCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

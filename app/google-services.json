@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "704900149741",
+    "firebase_url": "https://risesport-fbb24-default-rtdb.firebaseio.com",
+    "project_id": "risesport-fbb24",
+    "storage_bucket": "risesport-fbb24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704900149741:android:4e9eaf379ce2ffbb99b7e4",
+        "android_client_info": {
+          "package_name": "com.rise.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704900149741-dvsgtfvceopqn9cb8erlvt4j50jmnv1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnl_6UuzH0Rdmw7IokI6gSHsI6hej372Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704900149741-dvsgtfvceopqn9cb8erlvt4j50jmnv1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

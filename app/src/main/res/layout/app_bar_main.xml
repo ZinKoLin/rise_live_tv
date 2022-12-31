@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/Theme.FireTvAppByGDevelopers.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            app:titleTextColor="@color/black"
+            android:elevation="0dp"
+            app:popupTheme="@style/Theme.FireTvAppByGDevelopers.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.ferfalk.simplesearchview.SimpleSearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:background="@color/bgMain"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/SimpleSearchViewStyle"
+        />
+
+    <include layout="@layout/content_main" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_margin="20dp"
+        app:backgroundTint="#F83131"
+        app:elevation="10dp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="#FFFFFF"
+        app:srcCompat="@drawable/ic_baseline_live_tv_24" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

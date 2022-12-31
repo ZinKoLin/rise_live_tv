@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF0044</color>
+    <color name="colorPrimaryDark">#101D24</color>
+    <color name="colorAccent">#FF0044</color>
+
+    <color name="colorSearch">#80BCBCBC</color>
+
+    <color name="colorLight">#FFE0E8</color>
+
+    <color name="black">#FFFFFF</color>
+    <color name="white">#000000</color>
+
+    <color name="tabText">#353940</color>
+    <color name="lightGray">#545860</color>
+
+    <color name="searchHint">#CC353940</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="bgMain">#101D24</color>
+    <color name="MainText">#FFFFFF</color>
+    <color name="MainSecText">#424242</color>
+
+    <color name="colorBackgroundLight">#FFFFFF</color>
+    <color name="colorBackgroundDark">#101D24</color>
+
+    <color name="cardBack">#2E373C</color>
+
+
+    <color name="colorBackgfffroundDark">#7E92FF</color>
+
+</resources>

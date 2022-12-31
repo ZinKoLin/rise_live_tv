@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rise.live" >
+    <!-- Internet permission and network access permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:name=".Activity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FireTvAppByGDevelopers"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name=".Activity.LiveMenuActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Web2Activity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false" />
+
+        <activity
+            android:name=".LiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityYoutubePlayer"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Activity.PlayerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Activity.DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChannelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FavoriteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FireTvAppByGDevelopers.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+    </application>
+
+</manifest>

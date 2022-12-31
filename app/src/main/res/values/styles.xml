@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Widget.Theme.FireTvAppByGDevelopers.ButtonBar.Fullscreen" parent="@android:style/Theme.Holo.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="p">shortEdges</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+</resources>
